@@ -74,6 +74,13 @@ a{
   text-align: center;
 }
 
+.btnComprar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 footer{
   background-color: var(--c-terciary);
   font-weight: bold;
