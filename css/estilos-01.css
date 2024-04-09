@@ -53,10 +53,7 @@ h3{
 
 .bodyProducto{
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 hr{
@@ -72,17 +69,18 @@ img{
   background-color: #000;
   padding: 20px;  
   border-radius: 10px;
+  display: inline-block;
+  text-align: justify;
 }
 .cardImagenesProducto>img{
   height: 140px;
   width: 250px;
 }
 .detailProducto{
-  margin: 20px 0 0 10px;
+  margin: 10px 0 20px 10px;
   padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding-top: 0px!important;
+  
 }
 
 a{
@@ -98,14 +96,15 @@ a{
 }
 
 .btnComprar{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h4{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 footer{
