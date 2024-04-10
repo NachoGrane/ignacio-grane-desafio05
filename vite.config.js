@@ -13,6 +13,7 @@ export default {
         input: {
             //acá ponemos las paginas que tengamos. 
             mariokart : resolve ('pages/mario-kart.html'),
+            mariokart : resolve ('pages/mortal-kombat.html'),
         }
     }
   },
