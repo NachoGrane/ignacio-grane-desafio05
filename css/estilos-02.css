@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --c-primary: #1c1678;
+  --c-secondary: #8576ff;
+  --c-terciary: #7bc9ff;
+}
+
+body {
+  background-color: var(--c-primary);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 65px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+h2 {
+  color: #f8f8f8;
+  text-shadow: 2px 2px 2px #f8f8f88f;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainCards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 40px 0 40px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  height: 770px;
+  box-shadow: 2px 4px 16px rgba(123, 201, 255, 0.3);
+}
+
+.card:nth-child(2) > p {
+  font-size: 13px;
+}
+.card > img {
+  height: 250px;
+  width: 400px;
+  margin-bottom: 20px;
+  border: 3px solid var(--c-secondary);
+  border-radius: 10px;
+}
+
+.btnComprar {
+  padding: 10px;
+  background-color: var(--c-secondary);
+  border-radius: 5px;
+}
+
+.btnComprar:hover {
+  background-color: #594ea7;
+}
+
+.btnComprar > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card > p {
+  width: 400px;
+}
+
+.card > h3 {
+  margin: 0 0 20px 0;
+}
+
+.card.cardProducto {
+  height: auto;
+  margin-top: 20px !important;
+}
+.card > .headerCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerCard > a {
+  margin-top: 0 !important;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.bodyProducto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyProducto > img {
+  height: 350px;
+  width: 300px;
+}
+
+.bodyProducto > h4 {
+  order: 3;
+}
+.bodyProducto > img {
+  order: 1;
+}
+
+.bodyProducto > .cardImagenesProducto {
+  order: 2;
+}
+
+.bodyProducto > .detailProducto {
+  order: 4;
+}
+.cardImagenesProducto {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.cardImagenesProducto > img {
+  height: 150px;
+  width: 300px;
+  border: 3px solid var(--c-secondary);
+  transition: transform 0.2s ease;
+}
+.cardImagenesProducto > img:hover {
+  transform: scale(1.7);
+}
+.detailProducto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pDetail {
+  width: 75%;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #f8f8f8;
+  margin-top: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
